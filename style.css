@@ -1,0 +1,65 @@
+body {
+background: radial-gradient(circle at top right, lightblue, blue);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.tony-content img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  align-items: center;
+  border-radius: 100px;
+}
+
+.tony-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.tony-nav ul{
+  list-style: none;
+}
+
+.top-nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-nav ul li a{
+  color:  white;
+  text-decoration: none;
+  display: flex;
+  margin: 0;
+  width: 200px;
+  display: inline-block;
+  border-right: 2px solid rgba(255, 174, 0, 0.5);
+  padding: 0 15px;
+}
+
+.top-nav ul li a:hover,
+.top-nav ul li a.active {
+  color: rgb(91, 3, 192);
+}
+
+.tony-nav ul li a:hover,
+.tony-nav ul li a.active {
+  color: white;
+  transform: scale(5.5);
+}
+
+.intro {
+  color: white;
+}
+
+.content {
+  color: white;
+}
+
+.footer {
+  color: white;
+}
